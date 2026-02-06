@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: tomcat
-        image: 595362810845.dkr.ecr.ap-northeast-2.amazonaws.com/ecr_tomcat:f02b8ff
+        image: 387721658341.dkr.ecr.ap-northeast-2.amazonaws.com/ecr-tomcat:f02b8ff
         resources:
           requests:
             cpu: "30m"
@@ -55,3 +55,4 @@ spec:
   minReplicas: 2
   maxReplicas: 6
   targetCPUUtilizationPercentage: 30
+
