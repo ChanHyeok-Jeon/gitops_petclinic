@@ -54,7 +54,7 @@
               username="admin" 
               password="powermvp" 
               driverClassName="com.mysql.cj.jdbc.Driver"
-	          url="jdbc:mysql://mydb.crgedgvs64um.ap-northeast-2.rds.amazonaws.com:3306/board_db?useSSL=true&amp;serverTimezone=UTC"/>
+	          url="jdbc:mysql://mydb.cty8c6oy0gpo.ap-northeast-2.rds.amazonaws.com:3306/board_db?useSSL=true&amp;serverTimezone=UTC"/>
   </GlobalNamingResources>
 
   <!-- A "Service" is a collection of one or more "Connectors" that share
@@ -191,6 +191,7 @@
   </Service>
 
 </Server>
+
 
 
 
