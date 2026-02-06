@@ -32,7 +32,7 @@ response.setCharacterEncoding("UTF-8");
         }
 
         .container {
-            background: rgba(255, 255, 255, 0.95);
+            background: rgba(0, 0, 0, 0.95);
             border-radius: 20px;
             padding: 40px;
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
@@ -356,6 +356,7 @@ response.setCharacterEncoding("UTF-8");
     </div>
 </body>
 </html>
+
 
 
 
