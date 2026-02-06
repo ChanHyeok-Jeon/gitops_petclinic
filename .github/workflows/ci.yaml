@@ -72,5 +72,5 @@ jobs:
           git add ./deployment-nginx.yaml ./deployment-tomcat.yaml
           git diff --quiet && git diff --staged --quiet || (
           git commit -m "Update image tag to ${GITHUB_SHA}"
-          git push --force https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/powermvp1024/GitOps_petclinic.git HEAD:main
+          git push --force https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/ChanHyeok-Jeon/gitops_petclinic.git HEAD:main
           )
