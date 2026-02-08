@@ -18,9 +18,16 @@
     <filter-name>AuthFilter</filter-name>
     <filter-class>filter.AuthFilter</filter-class>
   </filter>
+
+  <!-- 🔥 핵심: 보호할 경로만 필터 적용 -->
   <filter-mapping>
     <filter-name>AuthFilter</filter-name>
-    <url-pattern>/*</url-pattern>
+    <url-pattern>/student/*</url-pattern>
+  </filter-mapping>
+
+  <filter-mapping>
+    <filter-name>AuthFilter</filter-name>
+    <url-pattern>/teacher/*</url-pattern>
   </filter-mapping>
 
   <!-- 관리자 권한 필터 -->
@@ -28,6 +35,7 @@
     <filter-name>RoleFilter</filter-name>
     <filter-class>filter.RoleFilter</filter-class>
   </filter>
+
   <filter-mapping>
     <filter-name>RoleFilter</filter-name>
     <url-pattern>/teacher/*</url-pattern>
